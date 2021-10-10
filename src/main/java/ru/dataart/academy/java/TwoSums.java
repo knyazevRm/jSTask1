@@ -12,7 +12,7 @@ public class TwoSums {
      */
     public int[] getTwoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
-            int firstIndex = i;
+            int firstIndex = i + 1;
             int lastIndex = nums.length - 1;
 
             while (firstIndex <= lastIndex) {
